@@ -49,3 +49,39 @@ The code works, but only just. It has quality, style and security problems of th
 **Target:** aim for a Pylint score above 9.5 on your final file. A perfect 10.00/10 is very good.
 
 Be ready to explain the bugs you found and how you fixed them. You may be called on to present.
+
+
+---
+
+# My Submission
+
+**Name:** Thejus A Reddy | **SRN:** PES2UG24CS564
+
+## Results
+
+| Tool | Before | After |
+|------|--------|-------|
+| Pylint | 6.60/10 | 10.00/10 |
+| Bandit | 1 High issue | No issues identified |
+| Flake8 | 10 issues | 0 issues |
+
+## Commits
+
+| Commit | Message |
+|--------|---------|
+| 49bb427 | Fix Bandit B605: replace os.system rm with glob and os.remove |
+| fe9e4fc | Fix Pylint: mutable default, bare except, naming, docstrings, with-open, f-string |
+| 4a7416e | Fix Flake8: blank lines (E302, E305) and final newline (W292) |
+| ce37c0a | Fix logic bugs and add after reports |
+
+## Files
+
+- [gym_system.py](gym_system.py): cleaned program
+- [issues.md](issues.md): full issue table
+- [reflection.md](reflection.md): reflection answers
+- [Lab5_Static_Code_Analysis_Report.pdf](Lab5_Static_Code_Analysis_Report.pdf): full report
+- Reports: `pylint_before.txt`, `pylint_after.txt`, `bandit_before.txt`, `bandit_after.txt`, `flake8_before.txt`, `flake8_after.txt`
+
+## Issues found and fixed
+
+(Paste the table from issues.md here.)
